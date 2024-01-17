@@ -14,7 +14,7 @@ const About = () => {
         </div>
    <div className=' mt-8 md:mt-0 p-8  md:p-20  '>
         <h1 className=' text-white text-pretty text-base md:text-lg '>
-        Hello, My name is Adarsh Gurjar Currently in 3rd year, pursuing B.tech in B.Tech in computer science , My skills includes decent foundatoin  in core java and javascript, from development perpective, i have done many project in React and Node (basically MERN ) for  Web Application and as these are nothing but just Javascript, For computer science fundamentals, I have a decent knowledge about Data Structure & Algorithm, Operating system, Database management system and Object Oriented Programing. I have also practiced DSA questions by solving over 120+ problems on Leetcode.
+        Hello, My name is Adarsh Gurjar Currently in 3rd year, pursuing  B.Tech in computer science , My skills includes decent foundatoin  in core java and javascript, from development perpective, i have done many project in React and Node (basically MERN ) for  Web Application and as these are nothing but just Javascript, For computer science fundamentals, I have a decent knowledge about Data Structure & Algorithm, Operating system, Database management system and Object Oriented Programing. I have also practiced DSA questions by solving over 120+ problems on Leetcode.
         </h1>
    </div> 
      </div>
