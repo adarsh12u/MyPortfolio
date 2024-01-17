@@ -38,7 +38,7 @@ const Home = () => {
                     </a>
                     </div>
               </div>
-  <div className=' w-[50%] flex justify-center '>
+  <div className=' mt-10 md:mt-0 w-[30%] md:w-[50%] flex justify-center '>
      <img src='/p7.png' alt=""  className=' h-40 md:h-64 animate-bounce duration-1000 delay-100'/>
   </div>
 
