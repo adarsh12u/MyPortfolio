@@ -39,7 +39,7 @@ const Home = () => {
                     </div>
               </div>
   <div className=' mt-10 md:mt-0 w-[40%] md:w-[50%] flex justify-center '>
-     <img src='../../public/picofme (4).png' alt=""  className=' h-full md:h-64  duration-1000 delay-100'/>
+     <img src='/picofme (4).png' alt=""  className=' h-full md:h-64  duration-1000 delay-100'/>
   </div>
 
         </div>
