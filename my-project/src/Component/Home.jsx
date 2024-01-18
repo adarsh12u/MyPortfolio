@@ -21,7 +21,7 @@ const Home = () => {
                 <h1 className=' text-3xl font-bold'>Hello, It's Me</h1>
                    <h1 className=' text-5xl font-bold'>Adarsh Gurjar </h1>
                    <button className=' border-2 border-black mt-4 p-2 rounded-xl font-medium hover:bg-slate-900 hover:text-[#2995b2]   transition-all duration-200'> 
-                     <h1>And I'm a Full-Sack javascript Developer</h1>
+                     <h1> I'm a Full-Stack javascript Developer</h1>
                     </button>
                     <div className=' flex mt-5 gap-6 md:gap-10 justify-center'>
                     <a href="https://github.com/adarsh12u">
@@ -38,8 +38,8 @@ const Home = () => {
                     </a>
                     </div>
               </div>
-  <div className=' mt-10 md:mt-0 w-[30%] md:w-[50%] flex justify-center '>
-     <img src='/p7.png' alt=""  className=' h-40 md:h-64 animate-bounce duration-1000 delay-100'/>
+  <div className=' mt-10 md:mt-0 w-[40%] md:w-[50%] flex justify-center '>
+     <img src='../../public/picofme (4).png' alt=""  className=' h-full md:h-64  duration-1000 delay-100'/>
   </div>
 
         </div>
