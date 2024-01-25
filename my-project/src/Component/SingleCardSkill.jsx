@@ -7,11 +7,11 @@ const SingleCardSkill = ({ name  , languages }) => {
   return (
     
 
-    <section className=' m-auto h-72 w-72 md:p-5 p-5 color mt-5 rounded-xl md:pl-10 md:pr-10 hover:bg-sky-500 transition-all duration-500 hover:scale-90'>
+    <section className=' m-auto h-72 w-72 lg:p-5 p-5 color mt-5 rounded-xl lg:pl-10 lg:pr-10 hover:bg-sky-500 transition-all duration-500 hover:scale-90'>
  
             
                <div className=' text-center'>
-                   <h1 className=' text-black font-semibold text-base md:text-xl'>
+                   <h1 className=' text-black font-semibold text-base lg:text-xl'>
                        {name}
                      </h1>      
                      <div className=' mx-auto mt-1 w-20 h-1 bg-[#2995b2]'></div>

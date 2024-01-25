@@ -5,15 +5,15 @@ import React, { useState } from 'react'
 const Navbar = () => {
     const[open,setOpen] = useState(false);
   return (
-      <header className=' bg-slate-900  h-28 md:p-5  ' >
+      <header className=' bg-slate-900  h-28 lg:p-5  ' >
            <nav style={{
         backgroundColor:'#2995b2'
-       }}  className=' md:p-5 p-4  md:rounded-xl flex  flex-col md:flex-row md:gap-32 md:items-center'>
+       }}  className=' lg:p-5 p-4  lg:rounded-xl flex  flex-col lg:flex-row lg:gap-32 lg:items-center'>
                <div className=' flex justify-between'>
-                   <h1 className=' text-2xl md:text-3xl font-bold'> Portfolio </h1>
-                    <RiMenu3Line size={30} className='block md:hidden' onClick={()=>setOpen(!open)} />
+                   <h1 className=' text-2xl lg:text-3xl font-bold'> Portfolio </h1>
+                    <RiMenu3Line size={30} className='block lg:hidden' onClick={()=>setOpen(!open)} />
                </div>
-               <div className={`${open?` block ` : `hidden`} bg-[#2995b2] z-50 md:hidden   pt-5 md:pt-0 flex flex-col md:flex-row  gap-5  md:gap-10`} >
+               <div className={`${open?` block ` : `hidden`} bg-[#2995b2] z-50 lg:hidden   pt-5 lg:pt-0 flex flex-col lg:flex-row  gap-5  lg:gap-10`} >
                    {
                       section.map((item)=>{
                             return <div key={item.id} className=' text-center  cursor-pointer'onClick={()=>setOpen(!open)}>
@@ -25,7 +25,7 @@ const Navbar = () => {
                       })
                    }
                </div>
-               <div className={` hidden   pt-5 md:pt-0  md:flex  gap-5  md:gap-10`} >
+               <div className={` hidden   pt-5 lg:pt-0  lg:flex  gap-5  lg:gap-10`} >
                    {
                       section.map((item)=>{
                             return <div key={item.id} className=' text-center  cursor-pointer' >
