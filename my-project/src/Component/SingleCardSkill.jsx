@@ -22,10 +22,16 @@ const SingleCardSkill = ({ name  , languages }) => {
                {
                  
                  languages.map((item)=>{
-                   const {id , name , logo} = item;
+                   const {id , name , logo , url} = item;
                    return <div key={ id} className=' mt-2 flex gap-5'>
                              
-                                 {logo}
+                             
+                              {logo} 
+                              {
+
+                              url && <img src={url} className=' h-7 w-7 lg:h-9 w-9' alt="" />
+                              }
+                             
                                  <h1 className=' text-pretty font-semibold'>{name}</h1>
                                 
                               </div>

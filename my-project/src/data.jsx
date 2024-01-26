@@ -1,6 +1,8 @@
 import {SiJavascript , SiRedux , SiHtml5 , SiMongodb ,    SiTailwindcss} from 'react-icons/si'
 import {FaGitSquare , FaGithubSquare , FaJava , FaNodeJs , FaReact} from 'react-icons/fa'
+import { FaGitAlt } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 import {IoLogoCss3} from 'react-icons/io'
 import { nanoid } from "nanoid"
 export const section = [
@@ -32,9 +34,10 @@ export const skills = [
    { id:nanoid(),
     name: 'Tools & Databases',
     languages: [
-       { id:nanoid(), name : 'Git' , logo:<FaGit color='redorange'  className='h-8 w-8 md:h-10 md:w-10 '/>},
+       { id:nanoid(), name : 'Git' , url:'/git.webp'},
        { id:nanoid(), name : 'Github', logo : <FaGithubSquare  color='black' className='h-8 w-8 md:h-10 md:w-10 '/> },
        { id:nanoid(), name : 'MongoDB',logo:<SiMongodb color='green'  className='h-8 w-8 md:h-10 md:w-10 '/> },
+       { id:nanoid(), name : 'postman',logo:<SiPostman color='orange'  className='h-7 w-7 md:h-9 md:w-9 '/> },
       
     ]
  },

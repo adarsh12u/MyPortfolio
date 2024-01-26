@@ -7,12 +7,11 @@ body{
     
     background-color: #0f172a;
 }
-.width{
-    
-}
+
 .color{
     background-color: rgba(19, 140, 226, 0.5);
 }
 .border{
     border-bottom: 2px solid blue;
 }
+

@@ -2,8 +2,9 @@ import React from 'react'
 import Navbar from './Navbar'
 import { IoLogoGithub } from "react-icons/io5";
 import { CiLinkedin } from "react-icons/ci";
-
+import { SiHackerrank } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
+import { LiaHackerrank } from "react-icons/lia";
 const Home = () => {
   return (
     <div className='  bg-slate-900 '>
@@ -19,7 +20,7 @@ const Home = () => {
             
               <div className=' w-[50%] text-center space-x-0 lg:space-y-5'>
                 <h1 className=' text-3xl font-bold'>Hello, It's Me</h1>
-                   <h1 className=' text-5xl font-bold'>Adarsh Gurjar </h1>
+                   <h1 className='text text-5xl font-bold'>Adarsh Gurjar </h1>
                    <button className=' border-2 border-black mt-4 p-2 rounded-xl font-medium hover:bg-slate-900 hover:text-[#2995b2]   transition-all duration-200'> 
                      <h1> I'm a Full-Stack javascript Developer</h1>
                     </button>
@@ -29,11 +30,15 @@ const Home = () => {
 
                     </a>
                     <a href="https://www.linkedin.com/in/adarsh-gurjar-6170b0249/">
-                    <CiLinkedin size={28}/>
+                    <CiLinkedin size={28} color=''/>
 
                     </a>
                     <a href="https://leetcode.com/Adarshgurjar123/">
                     < SiLeetcode size={25}/>
+
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/adarsh7470827890">
+                    < LiaHackerrank size={30}/>
 
                     </a>
                     </div>
