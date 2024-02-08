@@ -29,7 +29,7 @@ const SingleCardSkill = ({ name  , languages }) => {
                               {logo} 
                               {
 
-                              url && <img src={url} className=' h-7 w-7 lg:h-9 w-9' alt="" />
+                              url && <img src={url} className=' h-9 w-9 lg:h-9 ' alt="" />
                               }
                              
                                  <h1 className=' text-pretty font-semibold'>{name}</h1>
