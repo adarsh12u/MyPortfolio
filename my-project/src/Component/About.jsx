@@ -4,14 +4,15 @@ import {motion} from 'framer-motion'
 const About = () => {
   const slider = {
     initial:{
-      x:-300,
+      
       opacity:0,
     },
     animate:{
-       x:0,
+      
        opacity:1,
        transition:{
-        duration : 0.8,
+        duration : 2,
+        
         staggerChildren:0.1,
        }
     }
@@ -19,14 +20,15 @@ const About = () => {
 }
 const sliders = {
   initial:{
-    x:300,
+    
     opacity:0,
   },
   animate:{
-     x:0,
+    
      opacity:1,
      transition:{
-      duration : 0.8,
+      
+      duration : 2,
       staggerChildren:0.1,
      }
   }

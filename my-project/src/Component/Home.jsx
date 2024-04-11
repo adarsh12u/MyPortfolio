@@ -7,21 +7,7 @@ import { LiaHackerrank } from "react-icons/lia";
 import {motion} from 'framer-motion'
 const Home = () => {
 
-  const slider = {
-      initial:{
-        x:-500,
-        opacity:0,
-      },
-      animate:{
-         x:0,
-         opacity:1,
-         transition:{
-          duration : 0.8,
-          staggerChildren:0.1,
-         }
-      }
-
-  }
+ 
   return (
     <div className='  bg-slate-900 '>
   
@@ -37,44 +23,42 @@ const Home = () => {
 
     
 
-              <motion.div variants={slider} initial="initial" whileInView="animate" className='  w-full lg:w-[60%] text-center space-y-10 lg:space-y-5' >
-                <motion.div variants={slider}  className='  m-auto text-center w-full lg:w-[60%] space-y-5 ' >
-<motion.div variants={slider} >
+              <div className='  w-full lg:w-[60%] text-center space-y-10 lg:space-y-5' >
+                <div   className='  m-auto text-center w-full lg:w-[60%] space-y-5 ' >
+<div  >
 
-                <motion.h1 variants={slider} className=' text-3xl font-bold'>Hello, It's Me  </motion.h1>
-                   <motion.h1 variants={slider} className='text text-5xl font-bold'>Adarsh Gurjar</motion.h1>
-</motion.div>
-<motion.div variants={slider} >
+                <h1  className=' text-3xl font-bold'>Hello, It's Me  </h1>
+                   <h1  className='text text-5xl font-bold'>Adarsh Gurjar</h1>
+</div>
+<div  >
 
-                   <motion.p variants={slider}  className='  text-sm font-medium'>Brief description with insights into myself, my vocational journey and what I engage in professionally</motion.p>
-</motion.div>
-                </motion.div>
-                <motion.div variants={slider} >
-
-                   <motion.p variants={slider}  className=' text-base font-medium  outline-dashed inline-block p-2 rounded-lg mt-1 mb-2 hover: pl-3 pr-3'>I'm a full stack javascript developer</motion.p>
-</motion.div>
-               
-                    <motion.div variants={slider}  className=' flex mt-5 gap-6 lg:gap-10 justify-center'>
-                    <motion.a variants={slider} href="https://github.com/adarsh12u">
+                   <p   className='  text-sm font-medium'>Brief description with insights into myself, my vocational journey and what I engage in professionally</p>
+</div>
+                </div>
+                    <button   className=' border-2 border-black mt-4 p-2 rounded-xl font-medium hover:bg-slate-900 hover:text-[#2995b2]   transition-all duration-200'> 
+                    I'm a Full-Stack javascript Developer
+                    </button>
+                    <div   className=' flex mt-5 gap-6 lg:gap-10 justify-center'>
+                    <a  href="https://github.com/adarsh12u">
                     <IoLogoGithub size={28}/>
 
-                    </motion.a>
-                    <motion.a variants={slider} href="https://www.linkedin.com/in/adarsh-gurjar-6170b0249/">
+                    </a>
+                    <a  href="https://www.linkedin.com/in/adarsh-gurjar-6170b0249/">
                     <CiLinkedin size={28} color=''/>
 
-                    </motion.a>
-                    <motion.a variants={slider} href="https://leetcode.com/Adarshgurjar123/">
+                    </a>
+                    <a  href="https://leetcode.com/Adarshgurjar123/">
                     < SiLeetcode size={25}/>
 
-                    </motion.a>
-                    <motion.a variants={slider} href="https://www.hackerrank.com/profile/adarsh7470827890">
+                    </a>
+                    <a  href="https://www.hackerrank.com/profile/adarsh7470827890">
                     < LiaHackerrank size={30}/>
 
-                    </motion.a>
-                    </motion.div>
-              </motion.div>
-  <div className=' mt-10 lg:mt-0 w-[40%] lg:w-[50%] flex justify-center '>
-     <img src='/picofme (4).png' alt=""  className=' h-full   lg:h-64  duration-1000 delay-100'/>
+                    </a>
+                    </div>
+              </div>
+  <div  className=' mt-10 lg:mt-0 w-[60%] lg:w-[50%] flex justify-center '>
+     <img src='/my2.png' alt=""  className=' h-full   lg:h-64  duration-1000 delay-100'/>
   </div>
 
         </motion.div>

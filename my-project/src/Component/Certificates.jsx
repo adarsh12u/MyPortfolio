@@ -4,14 +4,14 @@ import {motion} from 'framer-motion'
 const Certificates = () => {
   const slider = {
     initial:{
-      x:-500,
+     
       opacity:0,
     },
     animate:{
-       x:0,
+      
        opacity:1,
        transition:{
-        duration : 0.8,
+        duration : 2,
         staggerChildren:0.1,
        }
     }
@@ -19,14 +19,14 @@ const Certificates = () => {
 }
 const sliders = {
   initial:{
-    x:500,
+  
     opacity:0,
   },
   animate:{
-     x:0,
+    
      opacity:1,
      transition:{
-      duration : 0.8,
+      duration : 2,
       staggerChildren:0.1,
      }
   }
@@ -43,7 +43,7 @@ const sliders = {
       
         {
             certificate.map((item)=>{
-                return <div variants={slider} key={item.id} className= '  w-72 h-52'>
+                return <div variants={slider} key={item.id} className= '  w-72 h-52 md:w-80 md:h-56 hover:scale-110  duration-300'>
    
                                                                  <a href={item.url} variants={slider}> <img src={item.image} className=' w-full h-full object-cover' alt="" /></a>      
                           

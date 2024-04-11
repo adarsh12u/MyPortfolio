@@ -1,7 +1,6 @@
 import {SiJavascript , SiRedux , SiHtml5 , SiMongodb ,    SiTailwindcss} from 'react-icons/si'
-import {FaGitSquare , FaGithubSquare , FaJava , FaNodeJs , FaReact} from 'react-icons/fa'
-import { FaGitAlt } from "react-icons/fa";
-import { FaGit } from "react-icons/fa";
+import { FaGithubSquare , FaJava , FaNodeJs , FaReact} from 'react-icons/fa'
+
 import { SiPostman } from "react-icons/si";
 import {IoLogoCss3} from 'react-icons/io'
 import { nanoid } from "nanoid"
@@ -55,8 +54,28 @@ export const skills = [
 ]
 
 export const projects = [
- 
- 
+   {
+      id: nanoid(),
+      img: '/image.png',
+      url:'https://blog-frontend-jet-phi.vercel.app/',
+      github:'https://github.com/adarsh12u/blog-market-Application-',
+      title:'Blog Application',
+      data:'The Application I have developed allows users to create their own blog, where users can publish their own opinions.A blog application is basically a web site which is used for chronological listing of blog posts'
+      
+      
+      ,tech:['React','Node','Mongodb','Material UI']
+   },
+   {
+      id: nanoid(),
+      img: '/com.jpg',
+      url:'https://comfy-store-mern-sq7p.vercel.app/',
+      github:'https://github.com/adarsh12u/Comfy_Store_MERN',
+      title:'Comfy Store',
+      data:'Comfy Store is an e-commerce platform where users can search products using filters or pagination. Built with React Query and Tailwind CSS, and Redux Toolkit for state management.'
+      
+      
+      ,tech:['React','Node','Mongodb','Material UI']
+   },
       {
          id: nanoid(),
          img: '/fotor-ai-202401161904.jpg',
@@ -100,7 +119,10 @@ export const projects = [
 
 export const certificate = [
 
-
+   { id:nanoid(),
+      image:'/scree.png',
+      url:'https://drive.google.com/file/d/1mbgI3vBMvmFcMUksS3oWZjbP0XsRzWYw/view?usp=sharing'   
+   },
  { id:nanoid(),
    image:'/nptel.png',
    url:'https://drive.google.com/file/d/1L_yTGrMlIRq5ExGiE-gLv4w9vACS7-jO/view?usp=drivesdk'   

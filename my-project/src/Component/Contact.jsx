@@ -7,10 +7,10 @@ const Contact = () => {
         <div className=' w-full text-center'>
               
               <h1 className=' text-white text-4xl font-semibold'><span className=' text-sky-400'>Contact</span>  Me</h1>
-            <form action="https://getform.io/f/16103ffc-18b6-4c60-8b52-9c539c90bbdc" method='POST'>
+            <form action="https://getform.io/f/3d8f8591-95c3-4d7b-8461-5905a8bd095b" method='POST'>
               <div className='w-full lg:w-1/2 m-auto mt-12  lg:mt-20 flex flex-col  gap-5'>
             
-               
+             
                   <input type="text" name="name" id="" className=' rounded-lg  text-lg font-normal p-2 text-black ' placeholder='Enter your name' />
                   <input type="email" name="email" id="" className=' rounded-lg  text-lg font-normal p-2 text-black  ' placeholder='Enter your email' />
 
@@ -23,5 +23,4 @@ const Contact = () => {
     </div>
   )
 }
-
 export default Contact
