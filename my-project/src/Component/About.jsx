@@ -46,7 +46,7 @@ const sliders = {
         </div>
    <div className=' mt-8 lg:mt-0 p-8  lg:p-20  '>
         <h1 className=' text-white text-pretty text-base lg:text-lg '>
-        Hello, My name is Adarsh Gurjar Currently in 3rd year, pursuing B.tech in Computer science engineering from Sushila devi bansal college of technology, My skills includes a  foundation in core java and javascript, from development perpective, i have done many project in React and Node (basically MERN ) for  Web application and as these are nothing but just Javascript. So, I am well Good in JavaScript Ecosystem. For computer science fundamentals, I have a decent knowledge about Data Structure & Algorithm, Operating system, Database management system and Object Oriented Technique. I have also practiced coding by solving over 150+ problems on various coding platforms like Leetcode, and Hackerrank </h1>
+        Hello, My name is Adarsh Gurjar Currently in 3rd year, pursuing B.tech in Computer science engineering from Sushila devi bansal college of technology, My skills includes a  foundation in core java and javascript, from development perpective, i have done many project in React and Node (basically MERN ) for  Web application and as these are nothing but just Javascript. So, I am well Good in JavaScript Ecosystem. For computer science fundamentals, I have a decent knowledge about Data Structure & Algorithm, Operating system, Database management system and Object Oriented Technique. I have also practiced coding by solving over 250+ problems on various coding platforms like Leetcode, and Hackerrank </h1>
    </div> 
      </div>
 
