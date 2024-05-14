@@ -23,26 +23,15 @@ const Navbar = () => {
          }
     }
   return (
-      <header className=' bg-slate-900  h-28 lg:p-5  ' >
+      <header className=' bg-slate-900 relative z-50   w-full h-28 lg:p-5  ' >
            <nav style={{
         backgroundColor:'#2995b2'
-       }}  className=' lg:p-5 p-4  lg:rounded-xl flex  flex-col lg:flex-row lg:gap-32 lg:items-center'>
+       }}  className=' lg:p-5 p-4   lg:rounded-xl flex  flex-col lg:flex-row lg:gap-32 lg:items-center'>
                <div className=' flex justify-between'>
                    <h1 className=' text-2xl lg:text-3xl font-bold'> Portfolio. </h1>
-                    <RiMenu3Line size={30} className='block lg:hidden' onClick={()=>setOpen(!open)} />
+                    <RiMenu3Line size={30} className='block lg:hidden cursor-pointer' onClick={()=>setOpen(!open)} />
                </div>
-               <motion.div  animate={open ? "open": "closed"}  className={`${open?` block ` : `hidden`} bg-[#2995b2] z-50 lg:hidden   pt-5 lg:pt-0 flex flex-col lg:flex-row  gap-5  lg:gap-10`} >
-                   {
-                      section.map((item)=>{
-                            return <motion.div key={item.id}   variants={variants}   className=' text-center  cursor-pointer border-slate-900  border-b-2'onClick={()=>setOpen(!open)}>
-                                  
-                                     <a href={item.href} > 
-                                     <motion.h1  className=' hover:text-slate-100 transition-all delay-100 ease-in text-lg font-medium'>{item.text}</motion.h1>
-                                     </a>
-                             </motion.div>
-                      })
-                   }
-               </motion.div>
+               
                <div className={` hidden   pt-5 lg:pt-0  lg:flex  gap-5  lg:gap-10`} >
                    {
                       section.map((item)=>{
@@ -56,6 +45,11 @@ const Navbar = () => {
                    }
                </div>
            </nav>
+           <div className={` -z-10    rounded-md absolute  ${!open ? "top-[-300px]":"top-[86px]" }  w-full md:hidden    flex duration-500 bg-[#2995b2]  flex-col justify-center items-center gap-5  p-4`} >
+                 {
+                    section.map((val,  i)=><a key={i} href={val.href}> <p onClick={()=>setOpen(!open)} className=' text-base   text-black font-normal'>{val.text}</p></a>)
+                  }
+              </div>
       </header>
     
   )
