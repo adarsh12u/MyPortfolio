@@ -58,7 +58,7 @@ const Home = () => {
                     </div>
               </div>
   <div  className=' mt-10 lg:mt-0 w-[60%] lg:w-[50%] flex justify-center '>
-     <img src='/my2.png' alt=""  className=' h-full   lg:h-64  duration-1000 delay-100'/>
+     <img src='/my2.png' alt=""   className=' h-full    lg:h-64  duration-1000 delay-100'/>
   </div>
 
         </motion.div>
