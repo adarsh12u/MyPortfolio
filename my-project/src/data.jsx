@@ -97,7 +97,7 @@ export const projects = [
       {
          id: nanoid(),
          img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-         url:'https://adarsh-gurjar.netlify.app/',
+         url:'https://react-todo-cyan-xi.vercel.app/',
          github:'https://github.com/adarsh12u/React_todo',
          title:'TODO List',
          data:'Created a user-friendly TODO List app—just jot down tasks and tick them off. Simple and effective for staying organized. Tech meets practicality for a seamless task management experience '
