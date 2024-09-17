@@ -88,7 +88,7 @@ export const projects = [
       {
          id: nanoid(),
          img: '/fotor-ai-2024011619138.jpg',
-         url:'https://imagee-generator.netlify.app/',
+         url:'https://image-generator-ruby.vercel.app/',
          github:'https://github.com/adarsh12u/ImageGenerator',
          title:'Image Generator',
          data:'In my Image Generator project, I have combined technology and creativity to create a digital art experience using the power of the Unsplash API. here you can search images as per your choice '
