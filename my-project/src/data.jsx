@@ -106,7 +106,7 @@ export const projects = [
       {
          id: nanoid(),
          img: 'https://res-2.cloudinary.com/under-the-hood-learning/image/upload/q_auto/v1/blog_images/MVC-Vanilla-JS.png',
-         url:'https://contentfulls-cms.netlify.app/',
+         url:'https://content-full-cms.vercel.app/',
          github:'https://github.com/adarsh12u/ContentFullCMS',
          title:'Vanilla javascript projects',
          data:'Developed a few projects, including a Password validator, Todo list, Tip calculator, Chrome extension, and Number game using Vanilla Javascript to tackle core JavaScript concepts.'
