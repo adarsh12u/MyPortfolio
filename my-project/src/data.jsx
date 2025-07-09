@@ -85,24 +85,24 @@ export const projects = [
          data:'A HR management system website that have auth section to create users and reset password and most important here you can perform crud operation you can add, delete , update the client '
          ,tech:['React','Node','Mongodb','Material UI']
       },
-      {
-         id: nanoid(),
-         img: '/fotor-ai-2024011619138.jpg',
-         url:'https://image-generator-ruby.vercel.app/',
-         github:'https://github.com/adarsh12u/ImageGenerator',
-         title:'Image Generator',
-         data:'In my Image Generator project, I have combined technology and creativity to create a digital art experience using the power of the Unsplash API. here you can search images as per your choice '
-         ,tech:['React','React Query']
-      },
-      {
-         id: nanoid(),
-         img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-         url:'https://react-todo-cyan-xi.vercel.app/',
-         github:'https://github.com/adarsh12u/React_todo',
-         title:'TODO List',
-         data:'Created a user-friendly TODO List app—just jot down tasks and tick them off. Simple and effective for staying organized. Tech meets practicality for a seamless task management experience '
-         ,tech:['React','Mterial UI']
-      },
+      // {
+      //    id: nanoid(),
+      //    img: '/fotor-ai-2024011619138.jpg',
+      //    url:'https://image-generator-ruby.vercel.app/',
+      //    github:'https://github.com/adarsh12u/ImageGenerator',
+      //    title:'Image Generator',
+      //    data:'In my Image Generator project, I have combined technology and creativity to create a digital art experience using the power of the Unsplash API. here you can search images as per your choice '
+      //    ,tech:['React','React Query']
+      // },
+      // {
+      //    id: nanoid(),
+      //    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+      //    url:'https://react-todo-cyan-xi.vercel.app/',
+      //    github:'https://github.com/adarsh12u/React_todo',
+      //    title:'TODO List',
+      //    data:'Created a user-friendly TODO List app—just jot down tasks and tick them off. Simple and effective for staying organized. Tech meets practicality for a seamless task management experience '
+      //    ,tech:['React','Mterial UI']
+      // },
       {
          id: nanoid(),
          img: 'https://res-2.cloudinary.com/under-the-hood-learning/image/upload/q_auto/v1/blog_images/MVC-Vanilla-JS.png',

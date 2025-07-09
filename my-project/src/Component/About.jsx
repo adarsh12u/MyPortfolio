@@ -46,7 +46,13 @@ const sliders = {
         </div>
    <div className=' mt-8 lg:mt-0 p-8  lg:p-20  '>
         <h1 className=' text-white text-pretty text-base lg:text-lg '>
-        Hello, My name is Adarsh Gurjar Currently in 3rd year, pursuing B.tech in Computer science engineering from Sushila devi bansal college of technology, My skills includes a  foundation in core java and javascript, from development perpective, i have done many project in React and Node (basically MERN ) for  Web application and as these are nothing but just Javascript. So, I am well Good in JavaScript Ecosystem. For computer science fundamentals, I have a decent knowledge about Data Structure & Algorithm, Operating system, Database management system and Object Oriented Technique. I have also practiced coding by solving over 250+ problems on various coding platforms like Leetcode, and Hackerrank </h1>
+        Hello! I’m Adarsh Gurjar, a passionate Software Developer with practical experience building modern web applications. I hold a B.Tech in Computer Science Engineering from Sushila Devi Bansal College of Technology.
+
+My technical foundation includes Core Java and JavaScript, and I have solid experience working with the MERN stack (MongoDB, Express.js, React.js, Node.js) to develop full-stack web applications. I’m well-versed in the JavaScript ecosystem, having delivered projects that use React, Redux, React Query, and other modern frameworks and tools.
+
+In addition to my development experience, I have a strong grasp of Computer Science fundamentals like Data Structures & Algorithms, Operating Systems, Database Management Systems, and Object-Oriented Programming. I have strengthened my problem-solving skills by solving 350+ DSA problems on platforms like LeetCode and HackerRank.
+
+I have also gained hands-on industry experience through roles at Lemosys Infotech and Walkover Pvt. Ltd., where I worked on building responsive user interfaces, optimizing backend services, and improving overall performance and user experience. </h1>
    </div> 
      </div>
 

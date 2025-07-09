@@ -18,7 +18,7 @@ const Home = () => {
    <div className=' p-2 lg:p-5' >
     
         <motion.div initial={{opacity:0 , scale:0.5}}  whileInView={{opacity:1 , scale:1}} transition={{duration:1}}  style={{
-        backgroundColor:'#2995b2'
+        backgroundColor:'rgba(19, 140, 226, 0.5)'
        }} className=' mt-20 h-auto px-3 py-5 lg:p-0 lg:h-96 rounded-xl flex flex-col lg:flex-row  justify-center items-center' >
 
     
