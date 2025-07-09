@@ -45,7 +45,7 @@ const Navbar = () => {
                    }
                </div>
            </nav>
-           <div className={` -z-10    rounded-md absolute  ${!open ? "top-[-300px]":"top-[86px]" }  w-full md:hidden    flex duration-500 bg-[#2995b2]  flex-col justify-center items-center gap-5  p-4`} >
+           <div className={` -z-10    rounded-md absolute  ${!open ? "top-[-300px]":"top-[86px]" }  w-full md:hidden    flex duration-500 bg-[rgba(19, 140, 226, 0.5)]  flex-col justify-center items-center gap-5  p-4`} >
                  {
                     section.map((val,  i)=><a key={i} href={val.href}> <p onClick={()=>setOpen(!open)} className=' text-base   text-black font-normal'>{val.text}</p></a>)
                   }
