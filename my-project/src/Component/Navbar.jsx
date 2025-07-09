@@ -45,9 +45,9 @@ const Navbar = () => {
                    }
                </div>
            </nav>
-           <div className={` -z-10    rounded-md absolute  ${!open ? "top-[-300px]":"top-[86px]" }  w-full md:hidden    flex duration-500 bg-[rgba(19, 140, 226, 0.5)]  flex-col justify-center items-center gap-5  p-4`} >
-                 {
-                    section.map((val,  i)=><a key={i} href={val.href}> <p onClick={()=>setOpen(!open)} className=' text-base   text-black font-normal'>{val.text}</p></a>)
+           <div className={`-z-10 rounded-md absolute ${!open ? "top-[-300px]" : "top-[86px]"} left-1/2 transform -translate-x-1/2 w-[94%] md:hidden flex duration-500 bg-black !text-white flex-col justify-center items-center gap-5 p-4`}>
+           {
+                    section.map((val,  i)=><a key={i} href={val.href}> <p onClick={()=>setOpen(!open)} className=' text-base mx-2  !text-white font-normal'>{val.text}</p></a>)
                   }
               </div>
       </header>
